@@ -848,4 +848,12 @@ var (
 						enhancementPR("https://github.com/openshift/enhancements/pull/1785").
 						enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
 						mustRegister()
+
+	FeatureGateResourceStateMetrics = newFeatureGate("ResourceStateMetrics").
+					reportProblemsToJiraComponent("Monitoring").
+					contactPerson("rexagod").
+					productScope(kubernetes).
+					enhancementPR("https://github.com/kubernetes/enhancements/issues/4785").
+					enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
+					mustRegister()
 )

@@ -261,6 +261,9 @@
                         "name": "ProcMountType"
                     },
                     {
+                        "name": "ResourceStateMetrics"
+                    },
+                    {
                         "name": "RouteAdvertisements"
                     },
                     {
